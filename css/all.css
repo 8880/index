@@ -1,0 +1,70 @@
+.bg {
+  background: url("../images/bg.jpg") no-repeat ;
+}
+.navbar-top .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.btn:focus,
+.btn:focus:focus,
+.btn:active:focus,
+.btn.focus,
+.btn.active:focus,
+.btn.active.focus {
+  outline: none;
+}
+
+.navbar-top .navbar-toggle {
+border: #fff 1px solid;
+}
+.navbar-top {
+  background-color: transparent;
+  border-radius: 0;
+}
+.navbar-top .navbar_bt {
+  border-bottom: 1px solid #333;
+}
+.nav-r.navbar-nav>li>a:hover {
+  background-color: #130c0e;
+}
+
+.nav-r.navbar-nav>li>a:focus {
+  background-color: #000;
+}
+.nav-r a{
+  color: #8a8c8e;
+}
+.nav-r li:nth-child(1) a {
+  font-size: 18px;
+  color: #d3d7d4;
+}
+
+.navbar-brand  {
+  font-size: 20px;
+  color: #999d9c;
+}
+
+.container .jumbotron {
+  background-color: #d3d4d7 ;
+  opacity: .7;
+}
+
+.container .jumbotron .btn-primary {
+  background-color: #337A63;
+}
+
+.container .jumbotron .btn-primary:hover {
+  border-color: transparent;
+}
+.container .jumbotron .btn-primary:focus {
+  border-color: transparent;
+}
+
+.container .jumbotron .btn-primary:active {
+  background-color: #666;
+  opacity: .5
+}
+
+.page-header {
+  border-bottom-color: #fff;
+  opacity: .5;
+}
